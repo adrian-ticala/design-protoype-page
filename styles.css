@@ -1,0 +1,221 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+
+
+
+
+
+
+.nav-bar{
+    background-color: gray;
+    height: 6vh;
+    width: auto;
+    
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1vh;
+}
+
+li{
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.applepodcast{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 10vh;
+    border-bottom: 1px solid gray;
+    width: 75vw;
+    margin-left: 12vw;
+}
+
+
+#james-img{
+    width: 30vw;
+
+}
+
+.description{
+   
+    width: 27vw;
+    margin-top: 10vh;
+    margin-left: 12vw;
+}
+
+.divider{
+    border-bottom: 1px solid gray;
+    width: 100%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    color: gray;
+}
+
+#text{
+    color: gray;
+    padding-top: 2vh;
+}
+
+.title{
+    
+    width: 50vw;
+    margin-left: 50vw;
+    margin-top: -60vh;
+}
+
+#jamesobrien{
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 2vh;
+}
+
+#radiostation{
+    color: blue;
+    font-weight: bold;
+    font-size: large;
+    padding-bottom: 3vh;
+}
+
+#news{
+    color: gray;
+    padding-bottom: 1vh;
+}
+.stars{
+    color: rgb(230, 230, 22);
+}
+
+button{
+    padding-top: 3vh;
+    border: 1px solid gray;
+    width: 30vw;
+    border-radius: 0.5rem;
+    display: block;
+    padding-top: 1vh;
+    margin-top: 2vh;
+    background-color: white;
+    padding-bottom: 1vh;
+    border-color: blue;
+}
+
+button p{
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.podcastdivider{
+    border-bottom: 1px solid gray;
+    width : 40vw;
+    padding-top: 7vh;
+}
+.podcasts{
+    padding-top:2vh;
+    width: 40vw;
+}
+
+.date{
+    color: gray;
+    padding-bottom: 1vh;
+}
+
+.podcast-title{
+    font-weight: bold;
+    padding-bottom: 1vh;
+}
+
+.play{
+    padding-top: 3vh;
+    border: 1px solid gray;
+    width: 15vw;
+    border-radius: 1rem;
+    display: block;
+    padding-top: 1vh;
+    margin-top: 1vh;
+    background-color: rgb(202, 199, 199);
+    padding-bottom: 1vh;
+    border-color: rgb(117, 117, 119);
+}
+
+.ratings{
+    margin-left: 12vw;
+}
+
+
+.comments{
+    display: flex;
+    margin-top: 1vh;
+    gap: 7vw;
+}
+
+.comment{
+    background-color :orangered;
+    margin-top:2vh;
+    width: 20vw;
+    height: 25vh;
+    border-radius: 0.5rem;
+    
+}
+
+.also{
+    display: flex;
+    flex-wrap: wrap;
+    gap:3vw;
+    margin-bottom: 40px;
+}
+
+
+.footer{
+    background-color: bisque;
+    height: 20vh;
+    
+}
+
+ul{
+    display: flex;
+}
+
+.foot{
+    color: rgb(124, 106, 180);
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    ul{
+        font-size: 2.5vw;
+        gap: 2.5vw;
+    }
+
+    .applepodcast{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding-top: 5vh;
+        border-bottom: 1px solid gray;
+        width: 75vw;
+        margin-left: 12vw;
+        font-size: 25px ;
+    }
+
+    #text{
+        display: none;
+    }
+
+    .divider{
+        display: none;
+    }
+    
+    
+    
+}
